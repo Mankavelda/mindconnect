@@ -22,11 +22,12 @@ const Messages = () => {
                         {/* Messages here donot forget your messsages at the right and chatgpt at the letf */}
                     </div>
                 </div>
-                <div className="relative rounded-2xl    w-full h-8  shadow-md ">
+                <div className="flex"><div className="relative rounded-2xl    w-full h-8  shadow-md ">
                     <input className="w-full pl-6 shadow-md py-4 border  rounded-3xl outline-none" type="text" placeholder="Your preferred name" />
                     <button className="h-8 w-8 flex justify-center items-center  top-0 right-1 px-4 rounded-full mr-2   mt-[12px]  text-white bg-gray-200 absolute
                 "><i className="ri-arrow-up-line text-white"></i></button>
                 </div>
+                <i className="ri-mic-line text-3xl text-gray-500 mt-3 ml-3 cursor-pointer"></i></div>
             </div>
 
         </div>

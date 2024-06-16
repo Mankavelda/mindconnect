@@ -19,7 +19,7 @@ const Grow = () => {
 
                 <div className="w-full absolute bottom-0 ">
                     <div className='flex justify-center mt-8'>
-                        <Link href={"/onboarding/name"}><button className='md:w-64 w-64 rounded-full m-8 text-xl py-3 text-white primary'>Next</button></Link>
+                        <Link href={"/onboarding/personalQuestions"}><button className='md:w-64 w-64 rounded-full m-8 text-xl py-3 text-white primary'>Next</button></Link>
                     </div>
                 </div>
             </div>
