@@ -8,6 +8,7 @@ import useStore from "@/json/store";
 import Share from "./share";
 import Privacy from "./privacy";
 import Terms from "./terms";
+import AccountDetail from "./accountDetails";
 
 const Discover = () => {
     const [discover, setDiscover] = useState(false)
@@ -51,7 +52,7 @@ const Discover = () => {
             </div>
             <div className={` ${discover ? "md:w-[68%]" : "md:w-full"} border border-l   p-3`}>
                 {
-                    sharedData == "account" ? <Login /> : sharedData == "share" ? <Share /> : sharedData == "privacy" ? <Privacy /> : sharedData == "terms" ? <Terms /> : <Messages />
+                    sharedData == "account" ? /*<Login />*/ <AccountDetail /> : sharedData == "share" ? <Share /> : sharedData == "privacy" ? <Privacy /> : sharedData == "terms" ? <Terms /> : <Messages />
                 }
             </div>
         </div>
