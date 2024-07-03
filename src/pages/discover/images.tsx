@@ -6,7 +6,7 @@ const Images = () => {
 
     return (
         <div className="h-[98vh] overflow-y-auto scroll">
-            <h3 className="text-2xl my-5">Good morning Jamison</h3>
+            <h3 className="text-2xl my-5">Good morning Velda</h3>
             <div className="grid md:grid-cols-2 grid-cols-2  md:gap-3 gap-1">
                 {
                     data.map((items, id: number) => {

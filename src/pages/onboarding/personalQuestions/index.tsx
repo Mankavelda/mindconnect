@@ -39,7 +39,7 @@ const PersonalQuestions = () => {
                     {[1, 2, 3, 4, 5].map((index) => (
                         <motion.div
                             key={index}
-                            className={`w-full h-1 ${question < index ? 'bg-gray-500 w-[50%]' : question == index ? 'rounded-full bg-green-500' : 'bg-green-500 w-[50%]'}`}
+                            className={`w-full h-1 ${question < index ? 'bg-gray-500 w-[50%]' : question == index ? 'rounded-full bg-blue-800' : 'bg-blue-800 w-[50%]'}`}
                             animate={{ backgroundColor: isAnimating && question === index ? "red" : "" }}
                         />
                     ))}
