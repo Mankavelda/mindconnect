@@ -8,8 +8,8 @@ const CompleteSurvey = () => {
                     initial={{ opacity: 0, y: 80 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 3.5 }} className="text-center">
-                <h3 className="text-3xl">Form Completed Successfully</h3>
-                <p className="text-lg">Our team will contact you to offer 5 specialist options</p>
+                <h3 className="text-3xl">Thank you for your responses</h3>
+                <p className="text-lg">We will provide you with a specialist that best suits your needs</p>
 
                 <p>Redirecting ....</p>
             </motion.div>

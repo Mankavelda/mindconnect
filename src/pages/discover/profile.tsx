@@ -11,7 +11,7 @@ const Profile = () => {
     return (
         <div className="w-full  ">
             <div className="mt-10 px-10">
-                <h3 className="text-2xl primaryText font-semibold">Jamison</h3>
+                <h3 className="text-2xl primaryText font-semibold">Velda</h3>
                 <div className="mt-5 w-full">
                     <div className="flex py-2 mt-4 justify-between cursor-pointer">
                         <div className="flex space-x-2" onClick={()=>handleDataTransfer("account")}>

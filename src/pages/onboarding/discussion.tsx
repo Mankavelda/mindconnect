@@ -33,7 +33,7 @@ const Discussion = () => {
                     </div>
                 </div>
                 <div className='flex justify-center mt-2'>
-                    <Link href={"/discover/"}><button className='w-full px-8 rounded-full text-xl py-3 primaryText bg-white  border border-gray-500'>I have gotten my topic already</button></Link>
+                    <Link href={"/discover/"}><button className='w-full px-8 rounded-full text-xl py-3 primaryText bg-white  border border-gray-500'>I have a personal issue I want to talk on</button></Link>
                 </div>
             </div>
         </div>

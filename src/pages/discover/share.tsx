@@ -12,7 +12,7 @@ const Share = () => {
 
                 <div className="">
                     <h3 className="text-4xl primayText mb-5 text-center">Spread the word</h3>
-                    <p className="text-lg text-gray-600 tex-center">Share a link to Pi with a friend...</p>
+                    <p className="text-lg text-gray-600 tex-center">Share a link to MindConnect with a friend...</p>
                     <center><button className="text-white primary px-20 py-3 rounded-md mt-10">Copy Link</button></center>
                 </div>
 

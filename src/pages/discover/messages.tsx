@@ -15,8 +15,8 @@ const Messages = () => {
                             >
                                 <h3
 
-                                    className="text-[25px] primaryText">Hey there, great to meet you. I am Pi, your personal AI.
-                                    My goal is to be useful, friendly and fun. Ask me for advice, for answers, or lets talk about whatever is on your mind.</h3>
+                                    className="text-[25px] primaryText">Hello there, it's great to meet you! I'm MindConnect, your virtual therapist.
+                                     I'm here to help you with any mental health concerns, provide support, and listen to whatever is on your mind. Let's make our conversations helpful and enjoyable. Feel free to ask for advice, answers, or just share what's on your mind</h3>
                             </motion.div>
                         </div>
                         <div className="">
@@ -37,7 +37,7 @@ const Messages = () => {
                     </div>
                 </div>
                 <div className="flex"><div className="relative rounded-2xl    w-full h-8  shadow-md ">
-                    <input className="w-full pl-6 shadow-md py-4 border  rounded-3xl outline-none" type="text" placeholder="Your preferred name" />
+                    <input className="w-full pl-6 shadow-md py-4 border  rounded-3xl outline-none" type="text" placeholder="Talk to MindConnect" />
                     <button className="h-8 w-8 flex justify-center items-center  top-0 right-1 px-4 rounded-full mr-2   mt-[12px]  text-white bg-gray-200 absolute
                 "><i className="ri-arrow-up-line text-white"></i></button>
                 </div>

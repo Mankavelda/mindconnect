@@ -85,7 +85,7 @@ export default function Example() {
                     <p className="mt-10 text-center text-sm text-gray-500">
                         already a member?{' '}
                         <Link legacyBehavior href={"/onboarding/signin"}><a className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-                            Sign Up
+                            Sign In
                         </a></Link>
                     </p>
                 </div>
